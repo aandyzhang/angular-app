@@ -1,0 +1,13 @@
+<div class="classify">
+    <h2 class="po-classify">职位分类</h2>
+    <div class="btn-group">
+        <button class="btn {{isActive==$index?'active':''}}" ng-click="checkList($index)" ng-repeat="item in com.positionClass" ng-bind="item.name"></button>
+    </div>
+    <div class="position-info" ng-repeat="info in positionList">
+        <div class="p-left f-l">
+            <div class="p-xinxi" ng-bind="info.name"></div>
+            <div class="p-date" ng-bind="info.createdDate"></div>
+        </div>
+        <div class="p-salary f-r" ng-bind="info.salary"></div>
+    </div>
+</div>

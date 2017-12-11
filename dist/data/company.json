@@ -1,0 +1,64 @@
+{
+    "id": "c1",
+    "imageUrl": "/image/company-1.png",
+    "name": "京东科技有限公司",
+    "industry": "移动互联网",
+    "state": "A轮",
+    "people": "10000人以上",
+    "positionClass": [
+      {
+      "id": "jishu",
+      "name": "技术",
+      "positionList": [{
+        "id": "p1",
+        "name": "IOS前端工程师",
+        "createdDate": "2016-04-16 23:30",
+        "salary": "15k-25k"
+      },
+        {
+          "id": "p2",
+          "name": "JAVA开发工程师",
+          "createdDate": "2017-12-16 23:30",
+          "salary": "面议"
+        },
+        {
+          "id": "p3",
+          "name": "PHP开发工程师",
+          "createdDate": "2017-04-16 23:30",
+          "salary": "25k以上"
+        },
+        {
+          "id": "p4",
+          "name": "WEB前端开发工程师",
+          "createdDate": "2017-04-16 23:30",
+          "salary": "30k以上"
+        }
+      ]
+    },
+    {
+      "id": "yunying",
+      "name": "运营",
+      "positionList": [{
+        "id": "y1",
+        "name": "运营总监",
+        "createdDate": "2016-04-10 13:30",
+        "salary": "25k以上"
+      },{
+        "id": "y2",
+        "name": "实习总监",
+        "createdDate": "2017-04-16 23:30",
+        "salary": "15k-25k"
+      }]
+    },
+    {
+      "id": "yunying",
+      "name": "运维",
+      "positionList": [{
+        "id": "y1",
+        "name": "运维开发",
+        "createdDate": "2017-04-10 13:30",
+        "salary": "25k以上"
+      }]
+    }
+  ]
+}

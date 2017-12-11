@@ -1,0 +1,19 @@
+{
+  "id": "p1",
+  "imageUrl": "/image/company-1.png",
+  "name": "产品经理",
+  "companyId": "c1",
+  "companyName": "京东科技有限公司",
+  "cityId": "c1",
+  "cityName": "北京",
+  "scaleId": "s3",
+  "scaleName": "10000人以上",
+  "industryId": "i1",
+  "industryName": "互联网",
+  "salaryId": "s2",
+  "salaryName": "30k以上",
+  "experience": "1-3年",
+  "education": "本科",
+  "benefit": "成长空间大,技术大牛多",
+  "description": "1.需求收集、需求分析、需求文档编写、跟进研发上线流程;2.收集用户体验和反馈，定期整理并分析；3.查看数据，进行简单数据分析。"
+}

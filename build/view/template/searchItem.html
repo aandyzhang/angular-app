@@ -1,0 +1,9 @@
+<div class="wrap">
+    <div class="search-item">
+    <!-- 搜索条件   城市   薪水  公司规模 -->    
+        <ul class="search-wrap">
+            <li ng-repeat="item in items" ng-bind="item.name" ng-click="query(item.name)"></li>
+        </ul>
+        <button class="btn-close" ng-click="cancel()">取消</button>
+    </div>
+</div>

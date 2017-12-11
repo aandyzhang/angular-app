@@ -1,0 +1,16 @@
+<div class="content">
+    <ul class="content-item">
+        <li class="clear line" ui-sref="position({id:item.id})" ng-repeat="item in data">
+            <div class="logo f-l">
+                <img ng-src="{{item.imageUrl}}" alt="" height="90px" height="90px">
+            </div>
+            <div class="info f-l">
+                <h2 class="work">{{item.cityName}}</h2>
+                <p class="name">{{item.companyName}}[{{item.cityName}}] {{item.industryName}}</p>
+                <p class="time">{{item.date}}</p>
+            </div>
+            <div class="b"></div>
+        </li>
+       
+    </ul>
+</div>

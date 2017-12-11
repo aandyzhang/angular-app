@@ -1,0 +1,13 @@
+<div class="company" ui-sref="corp({id:com.companyId})">
+    <div class="company-content">
+        <div class="company-logo f-l">
+            <img ng-src="{{com.imageUrl}}" alt="">
+        </div>
+        <div class="company-detail f-l">
+            <h2 class="company-name" ng-bind="com.name"></h2>
+            <div class="company-descript">
+                {{com.industry}}/{{com.state}}/{{com.people}}
+            </div>
+        </div>
+    </div>
+</div>

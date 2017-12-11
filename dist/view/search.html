@@ -1,0 +1,22 @@
+<div class="search">
+    <div search-head></div>
+    <div class="nav">
+        <ul class="navs">
+            <li class="nav-city"   ng-click="selectNum('city')"  ng-class="{'active':select == 'city'}" ng-bind="switch.city"></li>
+            <li class="nav-salary" ng-click="selectNum('salary')" ng-class="{'active':select == 'salary'}">薪水</li>
+            <li class="nav-des"    ng-click="selectNum('scale')"  ng-class="{'active':select == 'scale'}">公司规模</li>
+        </ul>
+    </div>
+    <div app-content data="list"></div>
+    <div app-footer current="current"></div>
+    <!-- 搜索框关键字下拉框 -->
+    <div class="search-list" ng-if="switch.list">
+        <ul class="search-content">
+            <li ng-repeat="item in works" ng-click="choose(item.cont)"><span>{{$index+1}}、</span><a href="#">{{item.cont}}</a></li>
+        </ul>
+    </div>
+    <div search-item items="sliders" switch="switch" ng-if="switch.menu"></div>
+    <!-- <div search-item ng-if="switch.menu"></div> -->
+    <!-- 搜索框下拉遮罩层 -->
+    <div class="shade" ng-if="switch.list"></div>
+</div>

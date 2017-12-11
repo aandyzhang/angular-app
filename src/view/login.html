@@ -1,0 +1,21 @@
+<div class="login">
+   <h2 class="login-title">Welcome</h2>
+   <div class="back" ng-click="back()">&lt;</div>
+   <form name="loginForm" ng-submit="check()">
+       <div class="form-group">
+           <div class="input">
+               <input type="text" name="" id="" placeholder="账号"
+                     required   ng-model="username" name="username" ng-maxlength="12" ng-minlength="6">
+           </div>
+           <div class="input">
+                <input type="password" name="password" id="" placeholder="密码" 
+                    required ng-model="password" name="password" ng-maxlength="18" ng-minlength="6">
+            </div>
+            <button type="submit" class="loginin">立即登录</button>
+            <div class="login-choose">
+                <a href="javascript:void(0)">忘记密码?</a>|
+                <a href="javascript:void(0)">立即注册</a>
+            </div>
+       </div>
+   </form>
+</div>
